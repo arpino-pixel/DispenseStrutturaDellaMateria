@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Informazioni sul corso}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Obiettivi}{2}{}%
+\contentsline {section}{\numberline {2}Atomi: aspetti generali}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Approssimazione di campo centrale}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Interazione spin-orbita}{2}{}%
+\contentsline {section}{\numberline {3}Atomi tipici}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Atomi alcalini}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Atomo di Elio}{5}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Stati eccitati e l' interazione di scambio}{7}{}%
+\contentsline {section}{\numberline {4}Modello vettoriale a shell}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Modello accoppiamento LS}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Il momento magnetico effettivo}{9}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Esempio illustrativo e Regole di Hund per lo stato fondamentale}{9}{}%
+\contentsline {subsection}{\numberline {4.3}Schema accoppimaneto jj}{9}{}%
+\contentsline {section}{\numberline {5}Atomi in campi elettrici e magnetici}{9}{}%
+\contentsline {section}{\numberline {6}Formulario e tabella delle notazioni}{10}{}%
+\contentsline {section}{\numberline {A}Appendice: dimostrazioni tecniche}{10}{}%
+\contentsline {section}{\numberline {B}Appendice: identità utili}{10}{}%
+\contentsline {subsection}{\numberline {B.1}Orbital and Spin magnetic moments and Spin-Orbit Interaction}{10}{}%
