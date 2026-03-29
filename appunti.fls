@@ -489,6 +489,11 @@ INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/vf/public/newtx/ntx-Regular-tlf-ot1.vf
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/newtx/txmiaX.tfm
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
+INPUT ./images/Orbitals1s2pz.png
+INPUT ./images/Orbitals1s2pz.png
+INPUT ./images/Orbitals1s2pz.png
+INPUT ./images/Orbitals1s2pz.png
+INPUT ./images/Orbitals1s2pz.png
 INPUT appunti.aux
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb
 INPUT /opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb

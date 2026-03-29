@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1774725914.64287 "appunti.tex" "appunti.pdf" "appunti" 1774725915.92224 0
+["pdflatex"] 1774779013.84922 "appunti.tex" "appunti.pdf" "appunti" 1774779015.07536 0
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1741388039 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1741388039 3124 3813fd4c981d99822890a2861b0d274c ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -228,9 +228,10 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/xpatch/xpatch.sty" 1741388039 8314 7803f78066c4f9d008405191a4b43073 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
-  "appunti.aux" 1774725915.81901 2497 f9dbfdca5c6b4591f8576356c1e8d560 "pdflatex"
-  "appunti.tex" 1774725914.57219 25335 4971091204ae428ed640b516045116f5 ""
-  "appunti.toc" 1774725915.82148 1510 6e5269215070f970e10301e03d82b6d9 "pdflatex"
+  "appunti.aux" 1774779014.96177 3074 6812e9f30cc0c755ff710e69f1d689aa "pdflatex"
+  "appunti.tex" 1774779013.825 29239 ff559f0ca24e77e13131aea01894a5a7 ""
+  "appunti.toc" 1774779014.96445 1769 cc366d6e8011aaa4dfbed3389ae1b2a0 "pdflatex"
+  "images/Orbitals1s2pz.png" 1774778725.6422 22555 7f45132d873546613d7b3ec59ec23bdb ""
   (generated)
   "appunti.aux"
   "appunti.log"

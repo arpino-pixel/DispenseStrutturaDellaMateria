@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  28 MAR 2026 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  29 MAR 2026 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1121,26 +1121,36 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
 [8]
 
 [9]
+<images/Orbitals1s2pz.png, id=81, 780.9175pt x 336.25626pt>
+File: images/Orbitals1s2pz.png Graphic file (type png)
+<use images/Orbitals1s2pz.png>
+Package pdftex.def Info: images/Orbitals1s2pz.png  used on input line 590.
+(pdftex.def)             Requested size: 341.43437pt x 147.0194pt.
 
-[10] (./appunti.aux)
+
+[10]
+
+[11 <./images/Orbitals1s2pz.png>]
+
+[12] (./appunti.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28697 strings out of 473190
- 583105 string characters out of 5704335
- 1000899 words of memory out of 5000000
- 51155 multiletter control sequences out of 15000+600000
+ 28710 strings out of 473190
+ 583461 string characters out of 5704335
+ 1000962 words of memory out of 5000000
+ 51168 multiletter control sequences out of 15000+600000
  638009 words of font info for 319 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,12n,121p,1004b,690s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txexas.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txexs.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on appunti.pdf (10 pages, 210848 bytes).
+Output written on appunti.pdf (12 pages, 232658 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 93853 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 93858 words of extra memory for PDF output out of 106986 (max. 10000000)
 
