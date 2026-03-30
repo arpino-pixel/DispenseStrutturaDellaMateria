@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1774888996.66385 "appunti.tex" "appunti.pdf" "appunti" 1774888998.11131 0
+["pdflatex"] 1774901588.42038 "appunti.tex" "appunti.pdf" "appunti" 1774901590.2155 0
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1741388039 2083 60e36f8eac802fcaf19eabe2633b406e ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1741388039 3124 3813fd4c981d99822890a2861b0d274c ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/map/fontname/texfonts.map" 1741388039 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -242,12 +242,17 @@
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/tex/latex/xpatch/xpatch.sty" 1741388039 8314 7803f78066c4f9d008405191a4b43073 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/web2c/texmf.cnf" 1741388039 42151 79f67285bdd95beca4d137b380b4b9e5 ""
   "/opt/homebrew/Cellar/texlive/20250308_1/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1741388039 3346141 1288109d02d1c772df65535881471649 ""
-  "appunti.aux" 1774888997.97723 3184 39944d54b67c78fbfcb5f089474a1f98 "pdflatex"
-  "appunti.tex" 1774888911.91286 29334 1b8268b82d01a40264bc35eb8f8a96ce ""
-  "appunti.toc" 1774888997.98291 1838 a714b73334fb083d6c84b8892d2fde79 "pdflatex"
+  "appunti.aux" 1774901590.09616 3900 e14e34286c39e01fe077498037e77033 "pdflatex"
+  "appunti.tex" 1774899956.63042 24946 939ea9a21d284bdca23caa28dbcf0a39 ""
+  "appunti.toc" 1774901590.09711 1850 16dcdd10e91345cd9bf58504845d7229 "pdflatex"
+  "images/LScoupling2p.png" 1774895937.56711 503374 553b8fbd61eb062c2b6d4c8caeca9bf7 ""
+  "images/LScouplingschemewithdegeneracy.png" 1774899026.96925 367320 4c46cfcb5c5187a49a2bdbbbc1ed3bfe ""
+  "images/LSscheme2p3d.png" 1774899614.19113 477999 20825403dec467affca5ce719f1cc0e4 ""
+  "images/LivelliSPinterazioneSpin-Spin.png" 1774898144.88208 121463 bf316523ddb68b2102136ce69aa4c979 ""
   "images/Orbitals1s2pz.png" 1774778725.6422 22555 7f45132d873546613d7b3ec59ec23bdb ""
   "sections/HamiltonianInMagneticField.tex" 1774887044.11829 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "sections/MultiElectronAtoms.tex" 1774888996.32456 2376 2cd0aa570ff33a3540fd56e38262955f ""
+  "sections/MultiElectronAtoms.tex" 1774899799.75878 5855 1fbfbd93088ed8c559640b73989a0a5e ""
+  "sections/VectorialModel.tex" 1774901585.5015 6438 cf319b061eecf10ba3220e0de26f23be ""
   (generated)
   "appunti.aux"
   "appunti.log"

@@ -1,0 +1,133 @@
+\section{Modello vettoriale per l' atomo}
+In analogia alla formula classica 
+\begin{equation*}
+  \hbar \frac{d \bm{S}}{dt} = \bm{\mu} \times \bm{H}
+\end{equation*}
+Ricordiamo che l' hamiltoniana di accoppiamento spin-orbita può essere pensata come il campo magnetico prodotto dal momento angolare orbitale che interagisce con lo spin elettronico
+\begin{equation*}
+  H_{SO} = \xi_{SL} \bm{L}\cdot \bm{S} = -\bm{\mu}_s\cdot \bm{H}
+\end{equation*}
+Questo mi permette di riscrivere la prima espressione come
+\begin{equation*}
+  \hbar \frac{d \bm{S}}{dt} = \bm{\mu} \times \bm{H} = -\xi_{LS} \bm{L}\times \bm{S} = \xi_{LS} \bm{S}\times \bm{J}
+\end{equation*}
+Analogamente per il momento angolare orbitale
+\begin{equation*}
+  \hbar \frac{d \bm{L}}{dt} = \bm{\mu} \times \bm{H} = -\xi_{LS} \bm{S}\times \bm{L} = \xi_{LS} \bm{L}\times \bm{J}
+\end{equation*}
+Il moto è un moto di precessione di $\bm{L}$ e $\bm{S}$ attorno a $\bm{J}$ con una frequenza di $\omega_{LS}$ con 
+\begin{equation*}
+  \omega_{LS} = \frac{\xi_{LS}J}{\hbar}
+\end{equation*}
+In questo caso possiamo metterci in due regimi:
+\\
+\textbf{Regime Zeeman}: l' accoppiamento spin-orbita è molto più forte dell' interazione fra il momento magnetico elettronico e il campo magnetico.
+
+\begin{equation*}
+  \xi_{LS} \gg \mu_B H
+\end{equation*}
+\begin{greenbox}{}
+  Quanto è grande $\xi_{LS}$ ovvero il campo magnetico generato dall' interazione spin-orbita sull' elettrone?
+  Per il sodio, siamo sui 18T. Per il Cesio sui 600T. Quindi per campi magnetico ragionevoli sono sicuramente nel regime Zeeman, per arrivare al regime Pashenback ho bisogno di campi magnetici elevati. Il campo magnetico più forte di Pavia è 9T. 
+\end{greenbox}
+\begin{deepbox}{Campi magnetici esplosivi}
+\end{deepbox}
+Il vettore J precede lentamente attorno al campo magnetico $\bm{H}$ mentre i vettori L e S precedono molto velocemente attorno a J. Da questo deduciamo l' eguaglianza
+\begin{equation*}
+  \bm{\mu}_J = -2 \mu_B \bm{S} \cos \widehat{SJ} - \mu_B \bm{L}\cos \widehat{LJ}
+\end{equation*}
+
+
+--DA QUI TERRA BATTUTA--
+
+Vorremo avere un modello che descriva la struttura elettronica per atomi multi-elettronici.
+All' interno di un atomo si hanno diversi tipi di interazione che devono essere considerati
+\begin{equation*}
+  a_{ik} \mathbf{l_i}\cdot\mathbf{s}_k\quad b_{ik}\mathbf{l}_i\cdot \mathbf{l_k}\quad c_{ik}\mathbf{s_i}\cdot \mathbf{s_k}
+\end{equation*}
+Il primo dei termini è l' interazione spin-orbita, il secondo è corrisponde all' interazione orbita-orbita, il terzo termine corrisponde all' interazione spin-spin.
+Possiamo usare due schemi che risultano applicabili in due regime differenti
+\begin{theorybox}{Schemi}
+  \textbf{Schema LS} si applica per atomico piccoli, che hanno un piccolo numero protonico, per cui è possibile trascurare l' interazione spin-orbita ($a\ll c$)\\
+  \textbf{Schema jj} si applica ad atomi pesanti, in cui è presente una forte interazione spin-orbita.
+\end{theorybox}
+\subsection{Modello accoppiamento LS}
+Definiamo le quantità vettoriali
+\begin{equation*}
+  \mathbf{S} = \sum_i \mathbf{s}_i \quad \mathbf{L} = \sum_i \mathbf{l}_i
+\end{equation*}
+L' interazione di spin viene descritta dall' Hamiltoniana di Spin-Orbita
+\begin{equation*}
+  H_{SO} = \xi_{LS} \mathbf{L}\cdot \mathbf{S}
+\end{equation*}
+Quando gli elettroni accoppiati sono equivalente, cioè hanno stessi numeri $n,l$, bisogna tenere in considerazione il principio di Esclusione di Pauli, cioè l' antisimmetria della funzione d'onda totale. Un modo semplice per individuare gli stati non accettabili si mostra usando la tabella
+\begin{table}[ht]
+    \centering
+    \begin{tabular}{c || c || c }
+        \toprule
+        $m/m_s$ & $1,1/2$ & $1,-1/2$ \\
+        \midrule
+        val1 & val2 & val3 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Caption}
+    \label{tab:label}
+\end{table}
+...
+In accordo con la fisica classica, un momento magnetico è proporzionale al momento angolare $\mathbf{\mu}_L \propto -\mathbf{L}$ in un campo magnetico con una precessione di frequenza angolare di 
+\begin{equation*}
+  \omega = \gamma H
+\end{equation*}
+dove $\gamma$ è il rapporto giromagnetico pari al rapporto tra il momento magnetico e il momento angolare 
+\begin{equation*}
+  \gamma = \frac{\mu}{L}
+\end{equation*}
+\begin{align*}
+  \frac{d\mathbf{L}}{dt} =& \xi_{LS} = \mathbf{J}\times\mathbf{L} \\
+  \frac{d\mathbf{S}}{dt} =& \xi_{LS} = \mathbf{J}\times\mathbf{S} 
+\end{align*}
+Queste equazioni implicano il moto di precessione di $\mathbf{L}$ e $\mathbf{S}$ intorno a un campo magnetico effettivo intorno alla direzione di $\mathbf{J}$. Allora i valori dell' energia vengono calcolati tenendo conto della perturbazione 
+\begin{equation*}
+  E(L,S,J) = E^0(L,S)+ \frac{1}{2} \xi_{LS} \Big[J(J+1)-L(L+1)-S(S+1)\Big]
+\end{equation*}
+
+
+
+\subsection{Il momento magnetico effettivo}
+\begin{align*}
+  \cos \widehat{LJ} =& \frac{L(L+1)+J(J+1)-S(S+1)}{2\sqrt{J(J+1)}\sqrt{L(L+1)}}\\
+  \cos \widehat{SJ} =& \frac{S(S+1)+J(J+1)-L(L+1)}{2\sqrt{J(J+1)}\sqrt{S(S+1)}}
+\end{align*}
+Allora il momento magnetico lungo la direzione $\mathbf{J}$ sarà
+\begin{equation*}
+  \vec{\mu}_J  = -2 \mu_B \mathbf{S}\cos \widehat{SJ} -\mu_B \mathbf{L}\cos\widehat{LJ}
+\end{equation*}
+\begin{deepbox}{}
+  Il modo formale di ottenere questo risultato, in questo caso ricavato con un ragionamento classico, consiste nell' usare il Teorema Di Wigner-Eckart 
+\end{deepbox}
+Per cui il momento magnetico effettivo risulta
+\begin{equation*}
+  \vec{\mu}_J = -\mu_B g \mathbf{J}
+\end{equation*}
+dove g corrisponde al fattore di Landè, che corrisponde a 
+\begin{equation*}
+  g = 1 + \frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}
+\end{equation*}
+\subsubsection{Esempio illustrativo e Regole di Hund per lo stato fondamentale}
+\subsection{Schema accoppiamento jj}
+In questo caso l' interazione spin-orbita per i singoli elettroni diventa significativa e di conseguenza non possiamo più fare la stessa costruzione dello schema LS. In questo caso dobbiamo considerare i momento totali individuali 
+\begin{equation*}
+  \mathbf{j}_i = \mathbf{l}_i+\mathbf{s}_i
+\end{equation*}
+e poi definire l' operatore momento angolare totale del sistema come 
+\begin{equation*}
+  \mathbf{J} = \sum_{i} \mathbf{j}_i
+\end{equation*}
+
+
+
+\subsection{Regole di Selezione}
+Usando il teorema di Wigner-Eckart e le proprietà dei coefficienti di Clebsh-Gordan si possono ricavare delle regole che controllano le transizioni tra i livelli elettronici.
+
+
+

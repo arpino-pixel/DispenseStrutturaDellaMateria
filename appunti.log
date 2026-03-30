@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  30 MAR 2026 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.3.15)  30 MAR 2026 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -773,7 +773,20 @@ File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.95pt on input line 172.
- (./appunti.aux)
+ (./appunti.aux
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+
+LaTeX Warning: Label `fig:label' multiply defined.
+
+)
 \openout1 = `appunti.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 172.
@@ -1173,41 +1186,75 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
 (Font)              scaled to size 6.6pt on input line 384.
  (./sections/MultiElectronAtoms.tex
 
-[6])
+[6]
 
 [7]
+<images/LScoupling2p.png, id=77, 699.61375pt x 481.8pt>
+File: images/LScoupling2p.png Graphic file (type png)
+<use images/LScoupling2p.png>
+Package pdftex.def Info: images/LScoupling2p.png  used on input line 57.
+(pdftex.def)             Requested size: 386.95897pt x 266.49055pt.
+<images/LivelliSPinterazioneSpin-Spin.png, id=79, 1541.76pt x 1027.84pt>
+File: images/LivelliSPinterazioneSpin-Spin.png Graphic file (type png)
+<use images/LivelliSPinterazioneSpin-Spin.png>
+Package pdftex.def Info: images/LivelliSPinterazioneSpin-Spin.png  used on input line 75.
+(pdftex.def)             Requested size: 290.22107pt x 193.47234pt.
 
-[8]
 
-[9]
-<images/Orbitals1s2pz.png, id=83, 780.9175pt x 336.25626pt>
+[8 <./images/LScoupling2p.png>]
+<images/LScouplingschemewithdegeneracy.png, id=84, 810.02625pt x 544.0325pt>
+File: images/LScouplingschemewithdegeneracy.png Graphic file (type png)
+<use images/LScouplingschemewithdegeneracy.png>
+Package pdftex.def Info: images/LScouplingschemewithdegeneracy.png  used on input line 93.
+(pdftex.def)             Requested size: 386.95897pt x 259.89574pt.
+<images/LSscheme2p3d.png, id=85, 735.74875pt x 587.19376pt>
+File: images/LSscheme2p3d.png Graphic file (type png)
+<use images/LSscheme2p3d.png>
+Package pdftex.def Info: images/LSscheme2p3d.png  used on input line 100.
+(pdftex.def)             Requested size: 386.95897pt x 308.83685pt.
+) (./sections/VectorialModel.tex
+
+[9 <./images/LivelliSPinterazioneSpin-Spin.png (PNG copy)> <./images/LScouplingschemewithdegeneracy.png>]
+
+[10 <./images/LSscheme2p3d.png>]
+
+[11])
+
+[12]
+<images/Orbitals1s2pz.png, id=100, 780.9175pt x 336.25626pt>
 File: images/Orbitals1s2pz.png Graphic file (type png)
 <use images/Orbitals1s2pz.png>
-Package pdftex.def Info: images/Orbitals1s2pz.png  used on input line 592.
+Package pdftex.def Info: images/Orbitals1s2pz.png  used on input line 494.
 (pdftex.def)             Requested size: 386.95897pt x 166.61923pt.
- (./sections/HamiltonianInMagneticField.tex)
 
-[10]
 
-[11 <./images/Orbitals1s2pz.png>] (./appunti.aux)
+[13] (./sections/HamiltonianInMagneticField.tex)
+
+[14 <./images/Orbitals1s2pz.png>]
+
+[15] (./appunti.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 28891 strings out of 473190
- 586733 string characters out of 5704335
- 1003883 words of memory out of 5000000
- 51316 multiletter control sequences out of 15000+600000
- 654793 words of font info for 356 fonts, out of 8000000 for 9000
+ 28957 strings out of 473190
+ 588596 string characters out of 5704335
+ 1003923 words of memory out of 5000000
+ 51355 multiletter control sequences out of 15000+600000
+ 656397 words of font info for 375 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,12n,121p,1004b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,13n,121p,1004b,681s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXBMI.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXBMI7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txexas.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txexs.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></opt/homebrew/Cellar/texlive/20250308_1/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on appunti.pdf (11 pages, 245743 bytes).
+Output written on appunti.pdf (15 pages, 1368535 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 169 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 94370 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 94390 words of extra memory for PDF output out of 106986 (max. 10000000)
 

@@ -39,3 +39,65 @@ L'obiettivo, allora, è quello di individuare i livelli di energia tenuto conto 
         (j_1,\dots,j_N)_J
       \end{equation*}
 \end{itemize}
+\begin{notebox}{}
+Anche per atomi pesanti lo schema LS può essera ancora usato, mentre lo schema jj si applica solo in casi particolari. Per esempio si osservi la struttura energetica del mercurio (Hg)
+\end{notebox}
+Nello schema LS, le correzioni all' energie
+\begin{equation*}
+  E_{SO} = \frac{\xi_{LS}}{2}\left(J(J+1)-L(L+1)-S(S+1)\right)
+\end{equation*}
+la differenza è data da
+\begin{equation*}
+  \Delta E_{J,J+1} = \frac{\xi_{LS}}{2}\left[(J+1)(J+2)-J(J+1)\right] = \xi_{LS}\left[J+1\right]
+\end{equation*}
+da cui osserviamo che al crescere di J la spaziatura tra i livelli aumenta linearmente. Questa crescita è chiamata \textit{regola dell' intervallo}.
+Bisogna considerare due configurazioni principali: quella in cui gli elettroni sono equivalenti, cioè quelli che si trovano sullo stesso strato.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/LScoupling2p.png}
+    \caption{Caption}
+    \label{fig:label}
+\end{figure}
+Gli stati lungo la diagonale (quelli con il "NO") hanno gli stessi numeri quantici e quindi non si possono realizzare perchè violerebbero il principio di Pauli. Sopra la diagonale, gli stati sono equivalenti a quelli al di sotto della diagonale perchè gli elettroni sono indistinguibili. Allora tenuto conto di questi due aspetti, si ottengono solo 15 stati realizzabili.Quindi in questo caso ci sono limitazioni sul numero di stati. Nel caso invece in cui gli elettroni non sono equivalenti, cioè non si trovano sullo stesso strato. Due elettroni non equivalenti avranno come numero di stati totali di combinazione tra gli elettroni
+\begin{equation*}
+  (2s_1+1)(2l_1+1)(2s_2+1)(2l_2+1)
+\end{equation*}
+In questo caso non c'è il principio di Pauli a limitare il numero di stati. L' interazione spin-spin è data da
+\begin{equation*}
+  c_{12}\bm{s}_1\cdot \bm{s}_2 \implies E_s = -\frac{|c_{12}|}{2}\Big\{s(s+1)-\frac{3}{2}\Big\} = \begin{cases}
+    E_{s=0} = \frac{3|c_{12}|}{4} \\
+    E_{s=1} = -\frac{|c_{12}|}{4}
+  \end{cases}
+\end{equation*}
+Da cui si osserva che lo stato di tripletto è quello a energia più bassa, ed e quindi una configurazione favorita.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/LivelliSPinterazioneSpin-Spin.png}
+    \caption{Caption}
+    \label{fig:label}
+\end{figure}
+Analogamente per l' interazione orbita-orbita: nel caso particolare ($l_1 = 0$ e $l_2 = 1$) $L=1$ quindi non si verifica lo splitting. Infine per l' interazione spin-orbita, l' effetto sullo stato di singoletto non c'è perchè J può assumere solo il valore di $J=1$. Nel caso in cui $S=1$, $J$ può assumere i valore $0,1,2$.
+\begin{equation*}
+  E_{S=}= \frac{\xi_{LS}}{2}(J(J+1)-4) = \frac{\xi}{2}\begin{cases}
+-4\\
+-2\\
+2
+  \end{cases}
+\end{equation*}
+\begin{greenbox}{}
+Mi ritrovo con quattro livelli anche se mi aspettavo 12 stati, come mai?
+Se ci aspettiamo 12 stati, ma otteniamo solo quattro bisogna considerare la degenerazione, che per esempio possiamo elimiare con un campo magnetico
+\end{greenbox}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/LScouplingschemewithdegeneracy.png}
+    \caption{Caption}
+    \label{fig:label}
+\end{figure}
+Nel caso leggermente più complesso in cui ($l_1 = 1$ e $l_2 = 2$) gli elettroni che si accoppiano sono uno p e l' altro d.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/LSscheme2p3d.png}
+    \caption{Caption}
+    \label{fig:label}
+\end{figure}
