@@ -36,6 +36,81 @@ Il vettore J precede lentamente attorno al campo magnetico $\bm{H}$ mentre i vet
 \begin{equation*}
   \bm{\mu}_J = -2 \mu_B \bm{S} \cos \widehat{SJ} - \mu_B \bm{L}\cos \widehat{LJ}
 \end{equation*}
+Da un punto di vista vettoriale
+\begin{equation*}
+  \bm{L\cdot J} = |\bm{L}||\bm{J}| \cos \widehat{LJ}
+\end{equation*}
+da cui otteniamo che
+\begin{align*}
+  \cos \widehat{LJ} =& \frac{J(J+1)+L(L+1)-S(S+1)}{2\sqrt{J(J+1)}\sqrt{L(L+1)}} \\\\
+  \cos \widehat{SJ} =& \frac{J(J+1)+S(S+1)-L(L+1)}{2\sqrt{J(J+1)}\sqrt{S(S+1)}} 
+\end{align*}
+così facendo otteniamo che il momento magnetico 
+\begin{equation*}
+  \bm{\mu}_J = - g \mu_B \bm{J}
+\end{equation*}
+dove $g$ è il fattore di Landè e tiene conto delle proiezioni dei momenti angolari lungo $\bm{J}$
+\begin{align*}
+  \bm{\mu_J} &= - \frac{J(J+1)+S(S+1)-L(L+1)}{\sqrt{J(J+1)}\sqrt{S(S+1)}} \bm{S}\mu_B - \frac{J(J+1)+L(L+1)-S(S+1)}{2\sqrt{J(J+1)}\sqrt{L(L+1)}} \bm{L}\mu_B\\
+             &= \cdots \\
+             &= -g \mu_B \bm{J}
+\end{align*}
+da cui
+\begin{equation*}
+  g = 1 + \frac{J(J+1)+S(S+1)-L(L+1)}{2J(J+1)}
+\end{equation*}
+Se io applico un campo mi devo aspettare una Hamiltoniana della forma solita
+\begin{equation*}
+  H_{mag} = - \bm{\mu_J} \cdot \bm{H} = g \mu_B \bm{J}\cdot \bm{H} 
+\end{equation*}
+da cui ponendo per convenienza la direazione del campo lungo l' asse z.
+\begin{equation*}
+  E_{mag} = g \mu_B H M_J
+\end{equation*}
+Il regime opposto a questo è il regime \textbf{Pashen-Back}. In questo caso l' interazione di spin-orbita è molto più debole dell' accoppiamento del momento magnetico orbita dell' elettrone con il campo magnetico applicato
+\begin{equation*}
+  \xi_{LS} \ll \mu_B H
+\end{equation*}
+In questo caso l' Hamiltoniana sarà 
+\begin{equation*}
+  H_{mag} = 2 \mu_B \bm{S}\cdot H + \mu_B \bm{L}\cdot H = 2 \mu_B S_z H + \mu_B L_z H
+\end{equation*}
+da cui le correzioni all' energia saranno
+\begin{equation*}
+  E_{mag} = \mu_B H \left(2 M_S+M_L\right)
+\end{equation*}
+Adesso teniamo conto dell' interazione spin-orbita perturbativamente e quindi la correzione al primo ordine risulta
+\begin{equation*}
+  \Delta E_{LS} = \xi_{LS} \bra{L,S;M_L,M_S} L_z S_z +\cancel{L_xS_x+ L_yS_y}\ket{L,S;M_L,M_S} = \xi_{LS}M_SM_L
+\end{equation*}
+Per cui i livelli correti nel regime di campo forte sono
+\begin{equation*}
+  E_{M_LM_S} = \mu_B H \left(2 M_S+M_L\right) + \xi_{LS}M_SM_L
+\end{equation*}
+\textbf{Esistono regole semplici per determinare lo stato fondamentale di un atomo?}
+\subsection{Regole di Hund}
+\begin{enumerate}
+  \item Massimizzare lo spin totale compatibilmente con il principio di Pauli: l' interazione di spin-spin favorisce la configurazione con Spin massimo
+  \item Massimizzare il momento angolare orbitale compatibilmente con il principio di Pauli
+  \item Se ho un multipletto riempito per meno della metà allora lo stato a minore energia è caratterizzato dal momento angolare totale minimo, viceversa se è riempito più della metà allora il momento angolare totale è massimo: nel primo caso $\xi_{LS}>0$ la costante di interazione spin-orbita è positiva, nel secondo caso invece la costante di interazione è negativa $\xi_{LS}<0$
+\end{enumerate}
+\begin{greenbox}{}
+Prendiamo come esempio quattro elettroni nell' orbitale 3d $(n=3, l=2)$
+\begin{equation*}
+  \arrowbox{}\arrowbox{\uparrow}\arrowbox{\uparrow}\arrowbox{\uparrow}\arrowbox{\uparrow}
+\end{equation*}
+In questo modo viene massimizzata il momento di spin $S=2$ e $L=2$, in questo caso $J=0$. Allora lo stato fondamentale risulta
+\begin{equation*}
+  {}^5D_0
+\end{equation*}
+\end{greenbox}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/tabellaHund}
+    \caption{Caption}
+    \label{fig:label}
+\end{figure}
+Bisogna in questa tabella prestare particolare attenzione all' Europio e il Samario, per cui valgono ancora le regole di Hund ma i valore sperimentali e quelli teorici non sono in accordo perchè interviene la suscettività di Van Vleck.
 
 
 --DA QUI TERRA BATTUTA--

@@ -65,6 +65,21 @@ arc=2mm,
 breakable
 }
 
+\tcbuselibrary{skins}
+
+\newtcbox{\arrowbox}{
+  on line,
+  math upper, % <-- fondamentale!
+  colframe=black,
+  colback=white,
+  boxrule=0.5pt,
+  arc=0pt,
+  boxsep=1pt,
+  width=1.5em,
+  height=1.5em,
+  valign=center,
+  halign=center
+}
 % ====================
 % MATEMATICA
 % ====================
@@ -81,6 +96,7 @@ breakable
 \usepackage{float}
 \usepackage{pdfpages}
 \usepackage{bm}
+\usepackage{cancel}
 
 % ====================
 % LISTE
@@ -151,6 +167,10 @@ breakable
 \DeclareMathOperator{\Ran}{Ran}
 \DeclareMathOperator{\Ker}{Ker}
 \DeclareMathOperator{\Dom}{Dom}
+
+\newcommand{\sqbox}[1]{%
+  \fbox{\makebox[1.5em][c]{#1}}%
+}
 
 % ====================
 % DATI DEL CORSO (compila questi)

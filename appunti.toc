@@ -9,15 +9,16 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Stati eccitati e l' interazione di scambio}{6}{}%
 \contentsline {section}{\numberline {4}Atomi a più elettroni}{7}{}%
 \contentsline {section}{\numberline {5}Modello vettoriale per l' atomo}{10}{}%
-\contentsline {subsection}{\numberline {5.1}Modello accoppiamento LS}{11}{}%
-\contentsline {subsection}{\numberline {5.2}Il momento magnetico effettivo}{12}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}Esempio illustrativo e Regole di Hund per lo stato fondamentale}{12}{}%
-\contentsline {subsection}{\numberline {5.3}Schema accoppiamento jj}{12}{}%
-\contentsline {subsection}{\numberline {5.4}Regole di Selezione}{12}{}%
-\contentsline {section}{\numberline {6}Atomi in campi elettrici e magnetici}{13}{}%
-\contentsline {subsection}{\numberline {6.1}Effetto Stark e Polarizzabilità Atomica}{13}{}%
-\contentsline {section}{\numberline {7}Formulario e tabella delle notazioni}{14}{}%
-\contentsline {section}{\numberline {A}Appendice: dimostrazioni tecniche}{14}{}%
-\contentsline {section}{\numberline {B}Appendice: identità utili}{14}{}%
-\contentsline {section}{\numberline {C}Funzioni degli orbitali dell' atomo di Idrogeno}{14}{}%
-\contentsline {subsection}{\numberline {C.1}Orbital and Spin magnetic moments and Spin-Orbit Interaction}{15}{}%
+\contentsline {subsection}{\numberline {5.1}Regole di Hund}{12}{}%
+\contentsline {subsection}{\numberline {5.2}Modello accoppiamento LS}{13}{}%
+\contentsline {subsection}{\numberline {5.3}Il momento magnetico effettivo}{14}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Esempio illustrativo e Regole di Hund per lo stato fondamentale}{14}{}%
+\contentsline {subsection}{\numberline {5.4}Schema accoppiamento jj}{14}{}%
+\contentsline {subsection}{\numberline {5.5}Regole di Selezione}{14}{}%
+\contentsline {section}{\numberline {6}Atomi in campi elettrici e magnetici}{14}{}%
+\contentsline {subsection}{\numberline {6.1}Effetto Stark e Polarizzabilità Atomica}{15}{}%
+\contentsline {section}{\numberline {7}Formulario e tabella delle notazioni}{16}{}%
+\contentsline {section}{\numberline {A}Appendice: dimostrazioni tecniche}{16}{}%
+\contentsline {section}{\numberline {B}Appendice: identità utili}{16}{}%
+\contentsline {section}{\numberline {C}Funzioni degli orbitali dell' atomo di Idrogeno}{16}{}%
+\contentsline {subsection}{\numberline {C.1}Orbital and Spin magnetic moments and Spin-Orbit Interaction}{16}{}%
